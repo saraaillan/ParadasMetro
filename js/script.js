@@ -22,8 +22,39 @@ let img8 = document.getElementById("img8")
 const mostrar = () => {
 
     info.textContent = img1.getAttribute("src")
+ 
+}
+const mostrar2 = () => {
+
+    info.textContent = img2.getAttribute("src")
+   
 
 }
+const mostrar3 = () => {
+    info.textContent = img3.getAttribute("src")
+  
+}
+const mostrar4 = () => {
+    info.textContent = img4.getAttribute("src")
+  
+}
+const mostrar5 = () => {
+    info.textContent = img5.getAttribute("src")
+  
+}
+const mostrar6 = () => {
+    info.textContent = img6.getAttribute("src")
+  
+}
+const mostrar7 = () => {
+    info.textContent = img7.getAttribute("src")
+  
+}
+const mostrar8 = () => {
+    info.textContent = img8.getAttribute("src")
+  
+}
+
 
 
 
@@ -31,16 +62,17 @@ const mostrar = () => {
 
 img1.addEventListener("click", mostrar)
 
-img2.addEventListener("click", mostrar)
+img2.addEventListener("click", mostrar2)
 
-img3.addEventListener("click", mostrar)
+img3.addEventListener("click", mostrar3)
 
-img4.addEventListener("click", mostrar)
+img4.addEventListener("click", mostrar4)
 
-img5.addEventListener("click", mostrar)
+img5.addEventListener("click", mostrar5)
 
-img6.addEventListener("click", mostrar)
+img6.addEventListener("click", mostrar6)
 
-img7.addEventListener("click", mostrar)
+img7.addEventListener("click", mostrar7)
 
+img7.addEventListener("click", mostrar8)
 
