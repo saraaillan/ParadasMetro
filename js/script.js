@@ -15,43 +15,39 @@ let img8 = document.getElementById("img8")
 /*Tengo que indicar la ruta de las imagenes para que sepa donde encontrarlo. Por eso ponemos "imagenes/" justo antes. Si esa carpeta de imagenes estuviera dentro de una carpeta assets, pondríamos "assets/imagenes/" */
 
 
-
-
-
-
 const mostrar = () => {
 
-    info.textContent = img1.getAttribute("src")
+    info.textContent = img1.src.slice(img1.src.lastIndexOf("/")+1,img1.src.lastIndexOf("."))
  
 }
 const mostrar2 = () => {
 
-    info.textContent = img2.getAttribute("src")
+    info.textContent = img2.src.slice(img1.src.lastIndexOf("/")+1,img2.src.lastIndexOf("."))
    
 
 }
 const mostrar3 = () => {
-    info.textContent = img3.getAttribute("src")
+    info.textContent = img1.src.slice(img3.src.lastIndexOf("/")+1,img3.src.lastIndexOf("."))
   
 }
 const mostrar4 = () => {
-    info.textContent = img4.getAttribute("src")
+    info.textContent = img1.src.slice(img4.src.lastIndexOf("/")+1,img4.src.lastIndexOf("."))
   
 }
 const mostrar5 = () => {
-    info.textContent = img5.getAttribute("src")
+    info.textContent =img5.src.slice(img1.src.lastIndexOf("/")+1,img5.src.lastIndexOf("."))
   
 }
 const mostrar6 = () => {
-    info.textContent = img6.getAttribute("src")
+    info.textContent = img6.src.slice(img1.src.lastIndexOf("/")+1,img6.src.lastIndexOf("."))
   
 }
 const mostrar7 = () => {
-    info.textContent = img7.getAttribute("src")
+    info.textContent = img7.src.slice(img1.src.lastIndexOf("/")+1,img7.src.lastIndexOf("."))
   
 }
 const mostrar8 = () => {
-    info.textContent = img8.getAttribute("src")
+    info.textContent = img8.src.slice(img1.src.lastIndexOf("/")+1,img8.src.lastIndexOf("."))
   
 }
 
